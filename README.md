@@ -8,7 +8,7 @@ Put the plugin into your nagios plugins directory (/usr/lib/nagios/plugins/ for 
 
 Add execution permission to the copied plugin
 
-  # chmod +x /usr/lib/nagios/plugins/*my_plugin*
+    # chmod +x /usr/lib/nagios/plugins/*my_plugin*
 
 ## check_smartmon.py
 
@@ -16,5 +16,5 @@ Source: https://exchange.nagios.org/directory/Plugins/Operating-Systems/Linux/ch
 
 Put a sticky bit on the file
 
-  # chmod u+s check_smartmon.py
+    # chmod u+s check_smartmon.py
 
